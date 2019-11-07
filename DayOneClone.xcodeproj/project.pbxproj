@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA77A6823743A0300FC1BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A6723743A0300FC1BCC /* AppDelegate.swift */; };
+		AEA77A6A23743A0300FC1BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A6923743A0300FC1BCC /* SceneDelegate.swift */; };
+		AEA77A6C23743A0300FC1BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A6B23743A0300FC1BCC /* ViewController.swift */; };
+		AEA77A6F23743A0300FC1BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA77A6D23743A0300FC1BCC /* Main.storyboard */; };
+		AEA77A7123743A0400FC1BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA77A7023743A0400FC1BCC /* Assets.xcassets */; };
+		AEA77A7423743A0400FC1BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA77A7223743A0400FC1BCC /* LaunchScreen.storyboard */; };
+		AEA77A7F23743A0500FC1BCC /* DayOneCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A7E23743A0500FC1BCC /* DayOneCloneTests.swift */; };
+		AEA77A8A23743A0500FC1BCC /* DayOneCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A8923743A0500FC1BCC /* DayOneCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEA77A7B23743A0500FC1BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA77A5C23743A0300FC1BCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA77A6323743A0300FC1BCC;
+			remoteInfo = DayOneClone;
+		};
+		AEA77A8623743A0500FC1BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA77A5C23743A0300FC1BCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA77A6323743A0300FC1BCC;
+			remoteInfo = DayOneClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEA77A6423743A0300FC1BCC /* DayOneClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayOneClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA77A6723743A0300FC1BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEA77A6923743A0300FC1BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AEA77A6B23743A0300FC1BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEA77A6E23743A0300FC1BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEA77A7023743A0400FC1BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA77A7323743A0400FC1BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEA77A7523743A0400FC1BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA77A7A23743A0500FC1BCC /* DayOneCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayOneCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA77A7E23743A0500FC1BCC /* DayOneCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOneCloneTests.swift; sourceTree = "<group>"; };
+		AEA77A8023743A0500FC1BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA77A8523743A0500FC1BCC /* DayOneCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayOneCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA77A8923743A0500FC1BCC /* DayOneCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOneCloneUITests.swift; sourceTree = "<group>"; };
+		AEA77A8B23743A0500FC1BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA77A6123743A0300FC1BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA77A7723743A0500FC1BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA77A8223743A0500FC1BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA77A5B23743A0300FC1BCC = {
+			isa = PBXGroup;
+			children = (
+				AEA77A6623743A0300FC1BCC /* DayOneClone */,
+				AEA77A7D23743A0500FC1BCC /* DayOneCloneTests */,
+				AEA77A8823743A0500FC1BCC /* DayOneCloneUITests */,
+				AEA77A6523743A0300FC1BCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA77A6523743A0300FC1BCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA77A6423743A0300FC1BCC /* DayOneClone.app */,
+				AEA77A7A23743A0500FC1BCC /* DayOneCloneTests.xctest */,
+				AEA77A8523743A0500FC1BCC /* DayOneCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA77A6623743A0300FC1BCC /* DayOneClone */ = {
+			isa = PBXGroup;
+			children = (
+				AEA77A6723743A0300FC1BCC /* AppDelegate.swift */,
+				AEA77A6923743A0300FC1BCC /* SceneDelegate.swift */,
+				AEA77A6B23743A0300FC1BCC /* ViewController.swift */,
+				AEA77A6D23743A0300FC1BCC /* Main.storyboard */,
+				AEA77A7023743A0400FC1BCC /* Assets.xcassets */,
+				AEA77A7223743A0400FC1BCC /* LaunchScreen.storyboard */,
+				AEA77A7523743A0400FC1BCC /* Info.plist */,
+			);
+			path = DayOneClone;
+			sourceTree = "<group>";
+		};
+		AEA77A7D23743A0500FC1BCC /* DayOneCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA77A7E23743A0500FC1BCC /* DayOneCloneTests.swift */,
+				AEA77A8023743A0500FC1BCC /* Info.plist */,
+			);
+			path = DayOneCloneTests;
+			sourceTree = "<group>";
+		};
+		AEA77A8823743A0500FC1BCC /* DayOneCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA77A8923743A0500FC1BCC /* DayOneCloneUITests.swift */,
+				AEA77A8B23743A0500FC1BCC /* Info.plist */,
+			);
+			path = DayOneCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEA77A6323743A0300FC1BCC /* DayOneClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA77A8E23743A0500FC1BCC /* Build configuration list for PBXNativeTarget "DayOneClone" */;
+			buildPhases = (
+				AEA77A6023743A0300FC1BCC /* Sources */,
+				AEA77A6123743A0300FC1BCC /* Frameworks */,
+				AEA77A6223743A0300FC1BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayOneClone;
+			productName = DayOneClone;
+			productReference = AEA77A6423743A0300FC1BCC /* DayOneClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEA77A7923743A0500FC1BCC /* DayOneCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA77A9123743A0500FC1BCC /* Build configuration list for PBXNativeTarget "DayOneCloneTests" */;
+			buildPhases = (
+				AEA77A7623743A0500FC1BCC /* Sources */,
+				AEA77A7723743A0500FC1BCC /* Frameworks */,
+				AEA77A7823743A0500FC1BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA77A7C23743A0500FC1BCC /* PBXTargetDependency */,
+			);
+			name = DayOneCloneTests;
+			productName = DayOneCloneTests;
+			productReference = AEA77A7A23743A0500FC1BCC /* DayOneCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEA77A8423743A0500FC1BCC /* DayOneCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA77A9423743A0500FC1BCC /* Build configuration list for PBXNativeTarget "DayOneCloneUITests" */;
+			buildPhases = (
+				AEA77A8123743A0500FC1BCC /* Sources */,
+				AEA77A8223743A0500FC1BCC /* Frameworks */,
+				AEA77A8323743A0500FC1BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA77A8723743A0500FC1BCC /* PBXTargetDependency */,
+			);
+			name = DayOneCloneUITests;
+			productName = DayOneCloneUITests;
+			productReference = AEA77A8523743A0500FC1BCC /* DayOneCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA77A5C23743A0300FC1BCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = rau4o;
+				TargetAttributes = {
+					AEA77A6323743A0300FC1BCC = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					AEA77A7923743A0500FC1BCC = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = AEA77A6323743A0300FC1BCC;
+					};
+					AEA77A8423743A0500FC1BCC = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = AEA77A6323743A0300FC1BCC;
+					};
+				};
+			};
+			buildConfigurationList = AEA77A5F23743A0300FC1BCC /* Build configuration list for PBXProject "DayOneClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA77A5B23743A0300FC1BCC;
+			productRefGroup = AEA77A6523743A0300FC1BCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA77A6323743A0300FC1BCC /* DayOneClone */,
+				AEA77A7923743A0500FC1BCC /* DayOneCloneTests */,
+				AEA77A8423743A0500FC1BCC /* DayOneCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA77A6223743A0300FC1BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA77A7423743A0400FC1BCC /* LaunchScreen.storyboard in Resources */,
+				AEA77A7123743A0400FC1BCC /* Assets.xcassets in Resources */,
+				AEA77A6F23743A0300FC1BCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA77A7823743A0500FC1BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA77A8323743A0500FC1BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA77A6023743A0300FC1BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA77A6C23743A0300FC1BCC /* ViewController.swift in Sources */,
+				AEA77A6823743A0300FC1BCC /* AppDelegate.swift in Sources */,
+				AEA77A6A23743A0300FC1BCC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA77A7623743A0500FC1BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA77A7F23743A0500FC1BCC /* DayOneCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA77A8123743A0500FC1BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA77A8A23743A0500FC1BCC /* DayOneCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEA77A7C23743A0500FC1BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA77A6323743A0300FC1BCC /* DayOneClone */;
+			targetProxy = AEA77A7B23743A0500FC1BCC /* PBXContainerItemProxy */;
+		};
+		AEA77A8723743A0500FC1BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA77A6323743A0300FC1BCC /* DayOneClone */;
+			targetProxy = AEA77A8623743A0500FC1BCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEA77A6D23743A0300FC1BCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA77A6E23743A0300FC1BCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEA77A7223743A0400FC1BCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA77A7323743A0400FC1BCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEA77A8C23743A0500FC1BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEA77A8D23743A0500FC1BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEA77A8F23743A0500FC1BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FATE3AU2ZJ;
+				INFOPLIST_FILE = DayOneClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = APS.DayOneClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEA77A9023743A0500FC1BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FATE3AU2ZJ;
+				INFOPLIST_FILE = DayOneClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = APS.DayOneClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEA77A9223743A0500FC1BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FATE3AU2ZJ;
+				INFOPLIST_FILE = DayOneCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = APS.DayOneCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayOneClone.app/DayOneClone";
+			};
+			name = Debug;
+		};
+		AEA77A9323743A0500FC1BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FATE3AU2ZJ;
+				INFOPLIST_FILE = DayOneCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = APS.DayOneCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayOneClone.app/DayOneClone";
+			};
+			name = Release;
+		};
+		AEA77A9523743A0500FC1BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FATE3AU2ZJ;
+				INFOPLIST_FILE = DayOneCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = APS.DayOneCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayOneClone;
+			};
+			name = Debug;
+		};
+		AEA77A9623743A0500FC1BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FATE3AU2ZJ;
+				INFOPLIST_FILE = DayOneCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = APS.DayOneCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayOneClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA77A5F23743A0300FC1BCC /* Build configuration list for PBXProject "DayOneClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA77A8C23743A0500FC1BCC /* Debug */,
+				AEA77A8D23743A0500FC1BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA77A8E23743A0500FC1BCC /* Build configuration list for PBXNativeTarget "DayOneClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA77A8F23743A0500FC1BCC /* Debug */,
+				AEA77A9023743A0500FC1BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA77A9123743A0500FC1BCC /* Build configuration list for PBXNativeTarget "DayOneCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA77A9223743A0500FC1BCC /* Debug */,
+				AEA77A9323743A0500FC1BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA77A9423743A0500FC1BCC /* Build configuration list for PBXNativeTarget "DayOneCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA77A9523743A0500FC1BCC /* Debug */,
+				AEA77A9623743A0500FC1BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA77A5C23743A0300FC1BCC /* Project object */;
+}
