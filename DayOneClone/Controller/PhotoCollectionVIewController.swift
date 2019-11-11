@@ -20,6 +20,7 @@ class PhotoCollectionVIewController: UICollectionViewController,UICollectionView
         self.view.backgroundColor = .white
         createCollectionView()
         title = "Day One Clone"
+        //gello
     }
     
     override func viewWillAppear(_ animated: Bool) {
