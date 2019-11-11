@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		056F303E48BCA666FFAA9AFD /* Pods_DayOneClone_DayOneCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A988E9BC533AD06177BC7780 /* Pods_DayOneClone_DayOneCloneUITests.framework */; };
+		1B17A2A4C527D06AF938799B /* Pods_DayOneCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838C5C32710087ECCFCAAA46 /* Pods_DayOneCloneTests.framework */; };
+		518C2222D9891F45EDE1467A /* Pods_DayOneClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F536460C7FA716DF46DE1C /* Pods_DayOneClone.framework */; };
 		AEA77A6823743A0300FC1BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A6723743A0300FC1BCC /* AppDelegate.swift */; };
 		AEA77A6A23743A0300FC1BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A6923743A0300FC1BCC /* SceneDelegate.swift */; };
 		AEA77A6C23743A0300FC1BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A6B23743A0300FC1BCC /* ViewController.swift */; };
@@ -15,6 +18,17 @@
 		AEA77A7423743A0400FC1BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA77A7223743A0400FC1BCC /* LaunchScreen.storyboard */; };
 		AEA77A7F23743A0500FC1BCC /* DayOneCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A7E23743A0500FC1BCC /* DayOneCloneTests.swift */; };
 		AEA77A8A23743A0500FC1BCC /* DayOneCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A8923743A0500FC1BCC /* DayOneCloneUITests.swift */; };
+		AEA77A9823743C2500FC1BCC /* JournalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A9723743C2500FC1BCC /* JournalDetailViewController.swift */; };
+		AEA77A9A23743C6900FC1BCC /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A9923743C6900FC1BCC /* JournalTableViewController.swift */; };
+		AEA77A9C23743C9C00FC1BCC /* CreateJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A9B23743C9C00FC1BCC /* CreateJournalViewController.swift */; };
+		AEA77A9E23743CC100FC1BCC /* PhotoCollectionVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A9D23743CC100FC1BCC /* PhotoCollectionVIewController.swift */; };
+		AEA77AA023744B9000FC1BCC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A9F23744B9000FC1BCC /* TabBarController.swift */; };
+		AEA77AA32374751800FC1BCC /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77AA22374751800FC1BCC /* JournalTableViewCell.swift */; };
+		AEA77AA52374755000FC1BCC /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77AA42374755000FC1BCC /* PhotoCollectionViewCell.swift */; };
+		AEA77AA82374774800FC1BCC /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77AA72374774800FC1BCC /* UIView+Constraints.swift */; };
+		AEA77AAA23749BAC00FC1BCC /* TopHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77AA923749BAC00FC1BCC /* TopHeaderView.swift */; };
+		AEA77AAF2375D5BF00FC1BCC /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77AAE2375D5BF00FC1BCC /* BaseCell.swift */; };
+		AEA77AB223795AFB00FC1BCC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77AB123795AFB00FC1BCC /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14598ADBDEEAB3033346520C /* Pods-DayOneCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayOneCloneTests.release.xcconfig"; path = "Target Support Files/Pods-DayOneCloneTests/Pods-DayOneCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		2749443C2EC80884239E600D /* Pods-DayOneCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayOneCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-DayOneCloneTests/Pods-DayOneCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D6F3D42F71ED7568D4C79E4 /* Pods-DayOneClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayOneClone.debug.xcconfig"; path = "Target Support Files/Pods-DayOneClone/Pods-DayOneClone.debug.xcconfig"; sourceTree = "<group>"; };
+		4A7517A7FAD6562016EA3424 /* Pods-DayOneClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayOneClone.release.xcconfig"; path = "Target Support Files/Pods-DayOneClone/Pods-DayOneClone.release.xcconfig"; sourceTree = "<group>"; };
+		838C5C32710087ECCFCAAA46 /* Pods_DayOneCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayOneCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A988E9BC533AD06177BC7780 /* Pods_DayOneClone_DayOneCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayOneClone_DayOneCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA77A6423743A0300FC1BCC /* DayOneClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayOneClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA77A6723743A0300FC1BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEA77A6923743A0300FC1BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +69,20 @@
 		AEA77A8523743A0500FC1BCC /* DayOneCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayOneCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA77A8923743A0500FC1BCC /* DayOneCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOneCloneUITests.swift; sourceTree = "<group>"; };
 		AEA77A8B23743A0500FC1BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA77A9723743C2500FC1BCC /* JournalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailViewController.swift; sourceTree = "<group>"; };
+		AEA77A9923743C6900FC1BCC /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		AEA77A9B23743C9C00FC1BCC /* CreateJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJournalViewController.swift; sourceTree = "<group>"; };
+		AEA77A9D23743CC100FC1BCC /* PhotoCollectionVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionVIewController.swift; sourceTree = "<group>"; };
+		AEA77A9F23744B9000FC1BCC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AEA77AA22374751800FC1BCC /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		AEA77AA42374755000FC1BCC /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		AEA77AA72374774800FC1BCC /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		AEA77AA923749BAC00FC1BCC /* TopHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeaderView.swift; sourceTree = "<group>"; };
+		AEA77AAE2375D5BF00FC1BCC /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		AEA77AB123795AFB00FC1BCC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EF44B2A6D8AC65282C275347 /* Pods-DayOneClone-DayOneCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayOneClone-DayOneCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-DayOneClone-DayOneCloneUITests/Pods-DayOneClone-DayOneCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1F536460C7FA716DF46DE1C /* Pods_DayOneClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayOneClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB5D059326A7E9F93D38FE /* Pods-DayOneClone-DayOneCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayOneClone-DayOneCloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-DayOneClone-DayOneCloneUITests/Pods-DayOneClone-DayOneCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518C2222D9891F45EDE1467A /* Pods_DayOneClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B17A2A4C527D06AF938799B /* Pods_DayOneCloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056F303E48BCA666FFAA9AFD /* Pods_DayOneClone_DayOneCloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61FD5F25A6FCC30E056E6435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1F536460C7FA716DF46DE1C /* Pods_DayOneClone.framework */,
+				A988E9BC533AD06177BC7780 /* Pods_DayOneClone_DayOneCloneUITests.framework */,
+				838C5C32710087ECCFCAAA46 /* Pods_DayOneCloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		939BFB7E54756BE003D38838 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D6F3D42F71ED7568D4C79E4 /* Pods-DayOneClone.debug.xcconfig */,
+				4A7517A7FAD6562016EA3424 /* Pods-DayOneClone.release.xcconfig */,
+				FACB5D059326A7E9F93D38FE /* Pods-DayOneClone-DayOneCloneUITests.debug.xcconfig */,
+				EF44B2A6D8AC65282C275347 /* Pods-DayOneClone-DayOneCloneUITests.release.xcconfig */,
+				2749443C2EC80884239E600D /* Pods-DayOneCloneTests.debug.xcconfig */,
+				14598ADBDEEAB3033346520C /* Pods-DayOneCloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AEA77A5B23743A0300FC1BCC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +143,8 @@
 				AEA77A7D23743A0500FC1BCC /* DayOneCloneTests */,
 				AEA77A8823743A0500FC1BCC /* DayOneCloneUITests */,
 				AEA77A6523743A0300FC1BCC /* Products */,
+				939BFB7E54756BE003D38838 /* Pods */,
+				61FD5F25A6FCC30E056E6435 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +161,12 @@
 		AEA77A6623743A0300FC1BCC /* DayOneClone */ = {
 			isa = PBXGroup;
 			children = (
+				AEA77AB023795AF000FC1BCC /* Model */,
+				AEA77AA62374773300FC1BCC /* Extensions */,
 				AEA77A6723743A0300FC1BCC /* AppDelegate.swift */,
 				AEA77A6923743A0300FC1BCC /* SceneDelegate.swift */,
+				AEA77AAB23749CBE00FC1BCC /* Controller */,
+				AEA77AA1237474F100FC1BCC /* View */,
 				AEA77A6B23743A0300FC1BCC /* ViewController.swift */,
 				AEA77A6D23743A0300FC1BCC /* Main.storyboard */,
 				AEA77A7023743A0400FC1BCC /* Assets.xcassets */,
@@ -128,6 +194,45 @@
 			path = DayOneCloneUITests;
 			sourceTree = "<group>";
 		};
+		AEA77AA1237474F100FC1BCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEA77AA22374751800FC1BCC /* JournalTableViewCell.swift */,
+				AEA77AA42374755000FC1BCC /* PhotoCollectionViewCell.swift */,
+				AEA77AA923749BAC00FC1BCC /* TopHeaderView.swift */,
+				AEA77AAE2375D5BF00FC1BCC /* BaseCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEA77AA62374773300FC1BCC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AEA77A9723743C2500FC1BCC /* JournalDetailViewController.swift */,
+				AEA77AA72374774800FC1BCC /* UIView+Constraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AEA77AAB23749CBE00FC1BCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEA77A9923743C6900FC1BCC /* JournalTableViewController.swift */,
+				AEA77A9B23743C9C00FC1BCC /* CreateJournalViewController.swift */,
+				AEA77A9D23743CC100FC1BCC /* PhotoCollectionVIewController.swift */,
+				AEA77A9F23744B9000FC1BCC /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEA77AB023795AF000FC1BCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEA77AB123795AFB00FC1BCC /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEA77A8E23743A0500FC1BCC /* Build configuration list for PBXNativeTarget "DayOneClone" */;
 			buildPhases = (
+				409D02B359F6F523FE72FF5C /* [CP] Check Pods Manifest.lock */,
 				AEA77A6023743A0300FC1BCC /* Sources */,
 				AEA77A6123743A0300FC1BCC /* Frameworks */,
 				AEA77A6223743A0300FC1BCC /* Resources */,
+				E348FE935D24C768ACC0C645 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEA77A9123743A0500FC1BCC /* Build configuration list for PBXNativeTarget "DayOneCloneTests" */;
 			buildPhases = (
+				537EEED4C0AB7819E20BFF00 /* [CP] Check Pods Manifest.lock */,
 				AEA77A7623743A0500FC1BCC /* Sources */,
 				AEA77A7723743A0500FC1BCC /* Frameworks */,
 				AEA77A7823743A0500FC1BCC /* Resources */,
@@ -170,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEA77A9423743A0500FC1BCC /* Build configuration list for PBXNativeTarget "DayOneCloneUITests" */;
 			buildPhases = (
+				5E78B9626D35F8491A9F4B0C /* [CP] Check Pods Manifest.lock */,
 				AEA77A8123743A0500FC1BCC /* Sources */,
 				AEA77A8223743A0500FC1BCC /* Frameworks */,
 				AEA77A8323743A0500FC1BCC /* Resources */,
+				25986B11B776D17C89B35163 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +364,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25986B11B776D17C89B35163 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayOneClone-DayOneCloneUITests/Pods-DayOneClone-DayOneCloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayOneClone-DayOneCloneUITests/Pods-DayOneClone-DayOneCloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayOneClone-DayOneCloneUITests/Pods-DayOneClone-DayOneCloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		409D02B359F6F523FE72FF5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayOneClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		537EEED4C0AB7819E20BFF00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayOneCloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E78B9626D35F8491A9F4B0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayOneClone-DayOneCloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E348FE935D24C768ACC0C645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayOneClone/Pods-DayOneClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayOneClone/Pods-DayOneClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayOneClone/Pods-DayOneClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEA77A6023743A0300FC1BCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AEA77A6C23743A0300FC1BCC /* ViewController.swift in Sources */,
+				AEA77AA52374755000FC1BCC /* PhotoCollectionViewCell.swift in Sources */,
+				AEA77AA023744B9000FC1BCC /* TabBarController.swift in Sources */,
 				AEA77A6823743A0300FC1BCC /* AppDelegate.swift in Sources */,
+				AEA77AAF2375D5BF00FC1BCC /* BaseCell.swift in Sources */,
+				AEA77A9A23743C6900FC1BCC /* JournalTableViewController.swift in Sources */,
+				AEA77AAA23749BAC00FC1BCC /* TopHeaderView.swift in Sources */,
 				AEA77A6A23743A0300FC1BCC /* SceneDelegate.swift in Sources */,
+				AEA77AB223795AFB00FC1BCC /* Models.swift in Sources */,
+				AEA77A9C23743C9C00FC1BCC /* CreateJournalViewController.swift in Sources */,
+				AEA77A9E23743CC100FC1BCC /* PhotoCollectionVIewController.swift in Sources */,
+				AEA77AA32374751800FC1BCC /* JournalTableViewCell.swift in Sources */,
+				AEA77AA82374774800FC1BCC /* UIView+Constraints.swift in Sources */,
+				AEA77A9823743C2500FC1BCC /* JournalDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +656,7 @@
 		};
 		AEA77A8F23743A0500FC1BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6F3D42F71ED7568D4C79E4 /* Pods-DayOneClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +675,7 @@
 		};
 		AEA77A9023743A0500FC1BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7517A7FAD6562016EA3424 /* Pods-DayOneClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +694,7 @@
 		};
 		AEA77A9223743A0500FC1BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2749443C2EC80884239E600D /* Pods-DayOneCloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +717,7 @@
 		};
 		AEA77A9323743A0500FC1BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14598ADBDEEAB3033346520C /* Pods-DayOneCloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +740,7 @@
 		};
 		AEA77A9523743A0500FC1BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FACB5D059326A7E9F93D38FE /* Pods-DayOneClone-DayOneCloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +761,7 @@
 		};
 		AEA77A9623743A0500FC1BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF44B2A6D8AC65282C275347 /* Pods-DayOneClone-DayOneCloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

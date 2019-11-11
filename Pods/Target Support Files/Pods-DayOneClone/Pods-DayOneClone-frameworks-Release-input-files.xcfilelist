@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-DayOneClone/Pods-DayOneClone-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/Toucan/Toucan.framework
