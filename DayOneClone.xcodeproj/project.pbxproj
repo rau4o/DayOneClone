@@ -208,7 +208,6 @@
 		AEA77AA62374773300FC1BCC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				AEA77A9723743C2500FC1BCC /* JournalDetailViewController.swift */,
 				AEA77AA72374774800FC1BCC /* UIView+Constraints.swift */,
 			);
 			path = Extensions;
@@ -217,6 +216,7 @@
 		AEA77AAB23749CBE00FC1BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AEA77A9723743C2500FC1BCC /* JournalDetailViewController.swift */,
 				AEA77A9923743C6900FC1BCC /* JournalTableViewController.swift */,
 				AEA77A9B23743C9C00FC1BCC /* CreateJournalViewController.swift */,
 				AEA77A9D23743CC100FC1BCC /* PhotoCollectionVIewController.swift */,

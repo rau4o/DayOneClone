@@ -14,6 +14,9 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
         stylize()
         setNavBar()
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
     }
     
     func setNavBar() {

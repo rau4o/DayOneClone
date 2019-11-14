@@ -21,6 +21,9 @@ class PhotoCollectionVIewController: UICollectionViewController,UICollectionView
         createCollectionView()
         title = "Day One Clone"
         //gello
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -69,6 +72,14 @@ class PhotoCollectionVIewController: UICollectionViewController,UICollectionView
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 200, height: 200)
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = JournalDetailViewController()
+        if let entry =  pictures?[indexPath.item].entry{
+            vc.entry = entry
+            navigationController?.pushViewController(vc, animated: true)
+        }
     }
   
 }

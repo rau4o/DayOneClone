@@ -8,6 +8,7 @@ target 'DayOneClone' do
   # Pods for DayOneClone
   pod 'RealmSwift'
   pod 'Toucan'
+  pod "IQKeyboardManager" 
 
   target 'DayOneCloneTests' do
     inherit! :search_paths

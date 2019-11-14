@@ -8,6 +8,7 @@
 
 import UIKit
 import RealmSwift
+import IQKeyboardManager
 
 class CreateJournalViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
     
@@ -79,7 +80,9 @@ class CreateJournalViewController: UIViewController,UIImagePickerControllerDeleg
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
         addSubviews()
         setContraints()
         view.backgroundColor = .white

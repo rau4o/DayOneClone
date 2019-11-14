@@ -15,6 +15,8 @@ class JournalTableViewController: UIViewController {
     
     var topHeaderView: TopHeaderView!
     
+    let entry = Entry()
+    
     lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.dataSource = self
@@ -27,6 +29,9 @@ class JournalTableViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
         view.backgroundColor = .white
         navigationController?.navigationBar.isHidden = true
         setupTableView()
@@ -102,5 +107,14 @@ extension JournalTableViewController: UITableViewDelegate,UITableViewDataSource 
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = JournalDetailViewController()
+        if let entry = entries?[indexPath.row]{
+            vc.entry = entry
+//            vc.imageView = entry.pictures.first?.thumbnail()
+            navigationController?.pushViewController(vc, animated: true)
+        }
+        
     }
 }
