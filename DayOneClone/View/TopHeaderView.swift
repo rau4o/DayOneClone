@@ -10,6 +10,8 @@ import UIKit
 
 class TopHeaderView: BaseCell {
     
+    // MARK: - Properties
+    
     var detailAction: (() -> Void)?
     var detailPhotoAction: (() -> Void)?
     
@@ -36,24 +38,27 @@ class TopHeaderView: BaseCell {
         stackView.spacing = 0
         return stackView
     }()
+    
+    // MARK: - Main Method
+    
     override func setupViews() {
-        backgroundColor = UIColor(red: 83/255, green: 194/255, blue: 249/255, alpha: 1)
-        addSubviews()
+        backgroundColor = .mainBlue
         setContraints()
     }
     
-    private func addSubviews() {
+    // MARK: - Helper function
+    
+    private func setContraints() {
         addSubview(stackView)
         stackView.addArrangedSubview(photoButton)
         stackView.addArrangedSubview(plusButton)
         
-    }
-
-    private func setContraints() {
         stackView.anchor(top: safeAreaLayoutGuide.topAnchor, leading: leadingAnchor, bottom: bottomAnchor, trailing: trailingAnchor, padding: .init(top: 0, left: 0, bottom: 0, right: 0), size: .init(width: 0, height: 0))
-        photoButton.anchor(top: stackView.topAnchor, leading: stackView.leadingAnchor, bottom: stackView.bottomAnchor, trailing: plusButton.leadingAnchor, padding: .init(top: 20, left: 20, bottom: 20, right: 20), size: .init(width: 100, height: 100))
-        plusButton.anchor(top: photoButton.topAnchor, leading: photoButton.trailingAnchor, bottom: photoButton.bottomAnchor, trailing: stackView.trailingAnchor, padding: .init(top: 0, left: 0, bottom: 10, right: 30), size: .init(width: 70, height: 70))
+        photoButton.anchor(top: stackView.topAnchor, leading: stackView.leadingAnchor, bottom: stackView.bottomAnchor, trailing: plusButton.leadingAnchor, padding: .init(top: 20, left: 20, bottom: 20, right: 20), size: .init(width: 50, height: 50))
+        plusButton.anchor(top: photoButton.topAnchor, leading: photoButton.trailingAnchor, bottom: photoButton.bottomAnchor, trailing: stackView.trailingAnchor, padding: .init(top: 0, left: 0, bottom: 10, right: 30), size: .init(width: 50, height: 50))
     }
+    
+    // MARK: - Selectors
     
     @objc func addPostAction() {
         detailAction?()

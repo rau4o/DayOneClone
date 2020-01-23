@@ -10,6 +10,11 @@
 		056F303E48BCA666FFAA9AFD /* Pods_DayOneClone_DayOneCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A988E9BC533AD06177BC7780 /* Pods_DayOneClone_DayOneCloneUITests.framework */; };
 		1B17A2A4C527D06AF938799B /* Pods_DayOneCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838C5C32710087ECCFCAAA46 /* Pods_DayOneCloneTests.framework */; };
 		518C2222D9891F45EDE1467A /* Pods_DayOneClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F536460C7FA716DF46DE1C /* Pods_DayOneClone.framework */; };
+		AE83F3F523D98976007188D8 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83F3F423D98976007188D8 /* UITextField+Extension.swift */; };
+		AE83F3F723D989FD007188D8 /* AdvancedUIView+ Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83F3F623D989FD007188D8 /* AdvancedUIView+ Extension.swift */; };
+		AE83F3F923D98AA4007188D8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83F3F823D98AA4007188D8 /* UIColor+Extension.swift */; };
+		AE83F3FB23D98B0A007188D8 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83F3FA23D98B0A007188D8 /* AuthButton.swift */; };
+		AE83F3FD23D99321007188D8 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83F3FC23D99321007188D8 /* UILabel+Extension.swift */; };
 		AEA77A6823743A0300FC1BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A6723743A0300FC1BCC /* AppDelegate.swift */; };
 		AEA77A6A23743A0300FC1BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A6923743A0300FC1BCC /* SceneDelegate.swift */; };
 		AEA77A6C23743A0300FC1BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA77A6B23743A0300FC1BCC /* ViewController.swift */; };
@@ -55,6 +60,11 @@
 		4A7517A7FAD6562016EA3424 /* Pods-DayOneClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayOneClone.release.xcconfig"; path = "Target Support Files/Pods-DayOneClone/Pods-DayOneClone.release.xcconfig"; sourceTree = "<group>"; };
 		838C5C32710087ECCFCAAA46 /* Pods_DayOneCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayOneCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A988E9BC533AD06177BC7780 /* Pods_DayOneClone_DayOneCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayOneClone_DayOneCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE83F3F423D98976007188D8 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		AE83F3F623D989FD007188D8 /* AdvancedUIView+ Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdvancedUIView+ Extension.swift"; sourceTree = "<group>"; };
+		AE83F3F823D98AA4007188D8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		AE83F3FA23D98B0A007188D8 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		AE83F3FC23D99321007188D8 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		AEA77A6423743A0300FC1BCC /* DayOneClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayOneClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA77A6723743A0300FC1BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEA77A6923743A0300FC1BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,12 +172,12 @@
 			isa = PBXGroup;
 			children = (
 				AEA77AB023795AF000FC1BCC /* Model */,
+				AEA77AA1237474F100FC1BCC /* View */,
+				AEA77AAB23749CBE00FC1BCC /* Controller */,
 				AEA77AA62374773300FC1BCC /* Extensions */,
+				AEA77A6B23743A0300FC1BCC /* ViewController.swift */,
 				AEA77A6723743A0300FC1BCC /* AppDelegate.swift */,
 				AEA77A6923743A0300FC1BCC /* SceneDelegate.swift */,
-				AEA77AAB23749CBE00FC1BCC /* Controller */,
-				AEA77AA1237474F100FC1BCC /* View */,
-				AEA77A6B23743A0300FC1BCC /* ViewController.swift */,
 				AEA77A6D23743A0300FC1BCC /* Main.storyboard */,
 				AEA77A7023743A0400FC1BCC /* Assets.xcassets */,
 				AEA77A7223743A0400FC1BCC /* LaunchScreen.storyboard */,
@@ -201,6 +211,7 @@
 				AEA77AA42374755000FC1BCC /* PhotoCollectionViewCell.swift */,
 				AEA77AA923749BAC00FC1BCC /* TopHeaderView.swift */,
 				AEA77AAE2375D5BF00FC1BCC /* BaseCell.swift */,
+				AE83F3FA23D98B0A007188D8 /* AuthButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,6 +220,10 @@
 			isa = PBXGroup;
 			children = (
 				AEA77AA72374774800FC1BCC /* UIView+Constraints.swift */,
+				AE83F3F423D98976007188D8 /* UITextField+Extension.swift */,
+				AE83F3F623D989FD007188D8 /* AdvancedUIView+ Extension.swift */,
+				AE83F3F823D98AA4007188D8 /* UIColor+Extension.swift */,
+				AE83F3FC23D99321007188D8 /* UILabel+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -472,10 +487,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE83F3F723D989FD007188D8 /* AdvancedUIView+ Extension.swift in Sources */,
 				AEA77A6C23743A0300FC1BCC /* ViewController.swift in Sources */,
 				AEA77AA52374755000FC1BCC /* PhotoCollectionViewCell.swift in Sources */,
+				AE83F3F923D98AA4007188D8 /* UIColor+Extension.swift in Sources */,
 				AEA77AA023744B9000FC1BCC /* TabBarController.swift in Sources */,
 				AEA77A6823743A0300FC1BCC /* AppDelegate.swift in Sources */,
+				AE83F3FB23D98B0A007188D8 /* AuthButton.swift in Sources */,
+				AE83F3F523D98976007188D8 /* UITextField+Extension.swift in Sources */,
+				AE83F3FD23D99321007188D8 /* UILabel+Extension.swift in Sources */,
 				AEA77AAF2375D5BF00FC1BCC /* BaseCell.swift in Sources */,
 				AEA77A9A23743C6900FC1BCC /* JournalTableViewController.swift in Sources */,
 				AEA77AAA23749BAC00FC1BCC /* TopHeaderView.swift in Sources */,

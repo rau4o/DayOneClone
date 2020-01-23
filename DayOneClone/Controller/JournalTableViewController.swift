@@ -11,6 +11,8 @@ import RealmSwift
 
 class JournalTableViewController: UIViewController {
     
+    // MARK: - Properties
+    
     private let cellId = "cellId"
     
     var topHeaderView: TopHeaderView!
@@ -27,21 +29,33 @@ class JournalTableViewController: UIViewController {
     
     var entries: Results<Entry>?
     
+    // MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Day One Clone"
         if #available(iOS 13.0, *) {
             overrideUserInterfaceStyle = .light
         }
         view.backgroundColor = .white
-        navigationController?.navigationBar.isHidden = true
+        configureNavBar()
         setupTableView()
         self.topHeaderView.detailAction = toDetailVC
         self.topHeaderView.detailPhotoAction = toDetailPhotoVC
-        title = "Day One Clone"
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        getEntries()
+    }
+    
+    // MARK: - Helper function
+    
+    func configureNavBar() {
         navigationController?.navigationBar.tintColor = .white
         navigationController?.navigationBar.isTranslucent = false
+        navigationController?.navigationBar.barTintColor = .mainBlue
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor : UIColor.white]
-        
+        navigationController?.navigationBar.isHidden = false
     }
     
     func getEntries() {
@@ -49,10 +63,6 @@ class JournalTableViewController: UIViewController {
             entries = realm.objects(Entry.self).sorted(byKeyPath: "date", ascending: false)
             tableView.reloadData()
         }
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        getEntries()
     }
     
     private func setupTableView() {
@@ -68,12 +78,15 @@ class JournalTableViewController: UIViewController {
         let vc = CreateJournalViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
+    
     func toDetailPhotoVC() {
         let vc = CreateJournalViewController()
         vc.startWithCamera = true
         navigationController?.pushViewController(vc, animated: true)
     }
 }
+
+// MARK: - UITableViewDelegate and UITableViewDataSource
 
 extension JournalTableViewController: UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -94,7 +107,6 @@ extension JournalTableViewController: UITableViewDelegate,UITableViewDataSource 
                     cell.photoImageView.image = image
                 }
                 else {
-                    //
                 }
                 cell.monthLabel.text = entry.monthPrettyString()
                 cell.dayLabel.text = entry.dayPrettyString()
@@ -108,13 +120,12 @@ extension JournalTableViewController: UITableViewDelegate,UITableViewDataSource 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = JournalDetailViewController()
         if let entry = entries?[indexPath.row]{
             vc.entry = entry
-//            vc.imageView = entry.pictures.first?.thumbnail()
             navigationController?.pushViewController(vc, animated: true)
         }
-        
     }
 }
